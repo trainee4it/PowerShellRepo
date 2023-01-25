@@ -14,7 +14,7 @@
     $file.Title = "Please pick a csv file"
 
     $result = $File.ShowDialog()
-
+    #added throw
     if($result -eq 'cancel')
     {
 
